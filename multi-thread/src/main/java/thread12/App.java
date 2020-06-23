@@ -1,4 +1,4 @@
-package thread8;
+package thread12;
 
 public class App {
 }

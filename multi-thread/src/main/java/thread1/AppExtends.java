@@ -1,5 +1,6 @@
 package thread1;
 
+
 public class AppExtends extends Thread {
     @Override
     public void run() {
