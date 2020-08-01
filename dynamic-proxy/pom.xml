@@ -29,7 +29,7 @@
         <target.version>1.6</target.version>
         <junit.version>4.11</junit.version>
         <commons.lang3.version>3.2.1</commons.lang3.version>
-        <commons.collections.version>3.2.1</commons.collections.version>
+        <commons.collections.version>3.2.2</commons.collections.version>
     </properties>
 
     <dependencies>
