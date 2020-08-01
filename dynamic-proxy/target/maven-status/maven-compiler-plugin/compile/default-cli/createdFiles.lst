@@ -1,6 +1,0 @@
-com/mae/java/dynamicproxy/IProxyBuilder.class
-com/mae/java/dynamicproxy/IObjectProvider.class
-com/mae/java/dynamicproxy/ProxyBuilderDefaultImpl.class
-com/mae/java/dynamicproxy/IInterceptor.class
-com/mae/java/dynamicproxy/IInvocation.class
-com/mae/java/dynamicproxy/IObjectInvoker.class
