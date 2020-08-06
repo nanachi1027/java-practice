@@ -118,12 +118,12 @@ public class ReflectionUtil {
      * 3. no default constructor return Optional default value
      */
     public static Optional<? extends Constructor<?>> getDefaultConstructor(Constructor<?> [] conArr) {
-        if (ArrayUtils.isNotEmpty(conArr)) {
+        if (!ArrayUtils.isNotEmpty(conArr)) {
             return Optional.absent();
         }
 
         for (Constructor<?> con : conArr) {
-            if (ArrayUtils.isNotEmpty(conArr.getClass().getTypeParameters())) {
+            if (!ArrayUtils.isNotEmpty(conArr.getClass().getTypeParameters())) {
                 return Optional.of(con);
             }
         }
